@@ -4,6 +4,6 @@ flake8==3.8.4
 coverage==6.4.1
 Django==4.0.5
 pycodestyle==2.5.0
-pyflakes==2.1.0
+pyflakes==2.2.0
 pytz==2020.5
 sqlparse==0.4.2

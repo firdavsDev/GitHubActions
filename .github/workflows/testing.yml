@@ -28,9 +28,9 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
     - name: Run tests flake8
-      run: |
-        pip install flake8
-        flake8 .
+      # run: |
+      #   pip install flake8
+      #   flake8 .
     - name: Coberage report
       run: |
         pip install coverage
